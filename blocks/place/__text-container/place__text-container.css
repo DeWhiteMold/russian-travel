@@ -1,0 +1,10 @@
+.place__text-container {
+  grid-area: text;
+}
+
+@media screen and (max-width: 767px) {
+  .place__text-container{
+    order: 4;
+    margin-top: 32px;
+  }
+}
