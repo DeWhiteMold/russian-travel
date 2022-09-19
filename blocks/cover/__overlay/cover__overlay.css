@@ -10,7 +10,7 @@
 }
 
 .cover__overlay:hover{
-  background: #2a2c2f ;
+  background: #2a2c2f;
   opacity: .8;
   transition: 1s ease-in-out;
 }
