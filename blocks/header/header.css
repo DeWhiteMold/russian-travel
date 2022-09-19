@@ -2,7 +2,6 @@
   display: flex;
   margin: 0 auto;
   width: 1184px;
-  max-height: 52px;
   justify-content: space-between;
 }
 
@@ -20,6 +19,7 @@
 
 @media screen and (max-width: 767px) {
   .header{
-    width: 228px;
+    width: 288px;
+    margin-top: 16px;
   }
 }

@@ -1,7 +1,4 @@
-h1, h2, h3, h4, h5, h6, p, ol, ul {
-  padding: 0;
-  margin: 0;
-}
+
 
 .page {
   background-color: #2a2c2f;
@@ -16,6 +13,12 @@ h1, h2, h3, h4, h5, h6, p, ol, ul {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; 
+}
+
+@media screen and (max-width: 767px) {
+  .page {
+    padding-top: 0;
+  }
 }
 
 
